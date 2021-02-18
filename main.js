@@ -1,0 +1,139 @@
+window.onload = function() {
+    $(".title").find("h1").addClass("transform-main-title");
+    $(".title").find("p").addClass("transform-desc");
+};
+  
+$(document).ready(function(){
+    $('.wp-panner').owlCarousel({
+        autoplayTimeout: 5000,
+        smartSpeed: 1000,
+        autoplay: true,
+        lazyLoad: true,
+        loop:true,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+            },
+            767:{
+                items:1,
+            },
+            991:{
+                items:1,
+            },
+            1000:{
+                items:1,
+            }
+        }
+    })
+  });
+
+  $(document).ready(function(){
+    $('.hot-product').owlCarousel({
+        loop:true,
+        margin:40,
+        responsiveClass:true,
+        nav:true,
+        responsive:{
+            0:{
+                items:1,
+            },
+            767:{
+                items:2,
+            },
+            991:{
+                items:3,
+            },
+            1000:{
+                items:4,
+            }
+        }
+    })
+  });
+
+  $(document).ready(function(){
+    $('.list-box-customer').owlCarousel({
+        center: true,
+        loop:true,
+        responsiveClass:true,
+        nav:true,
+        responsive:{
+            0:{
+                items:1,
+            },
+            767:{
+                items:2,
+            },
+            991:{
+                items:3,
+            },
+            1000:{
+                items:3,
+            }
+        }
+    })
+  });
+
+$(document).ready(function(){
+    $('.panner-bt').owlCarousel({
+        loop:true,
+        margin:40,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+            },
+            767:{
+                items:2,
+            },
+            991:{
+                items:2,
+            },
+            1000:{
+                items:3,
+            }
+        }
+    })
+  });
+
+
+  $(document).ready(function(){
+    $('.wp-hl').owlCarousel({
+        margin:40,
+        loop:true,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+            },
+            600:{
+                items:2,
+            },
+            1000:{
+                items:3,
+            }
+        }
+    })
+  });
+
+  $(document).ready(function(){
+    $('.promotion').owlCarousel({
+        margin:30,
+        loop:true,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+            },
+            767:{
+                items:2,
+            },
+            991:{
+                items:3,
+            },
+            1000:{
+                items:4,
+            }
+        }
+    })
+  });
